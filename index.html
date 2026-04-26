@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header class="header">
+    <h2 class="logo">My<span>Portfolio</span></h2>
+
+    <i class="fa-chisel fa-regular fa-bars fa-flip"></i>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="gradient-btn">Hire Me</button>
+</header>
+
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi, I'm <span>Rodolfo Valeroso</span></h1>
+        <h3>Frontend Developer</h3>
+        <p>I create modern and responsive websites.</p>
+    </div>
+
+    <div class="home-img">
+        <img src="images/4fce468d-dd16-4cfd-82c8-01f9d1677004.jpg" alt="Profile Image">
+    </div>
+</section>
+
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/02-Developer Hiring and Skills (1).png" alt="About Image">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About Me</h2>
+        <p>I am passionate about building clean and user-friendly interfaces.</p>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Basics</li>
+        </ul>
+    </div>
+</section>
+    
+
+<section class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+
+    <div class="projects-box">
+
+        <div class="project-card">
+            <img src="images/64fb2b64316862df3d2e099a_rcQYosTUaQ6hiJSAk7JphBXJCcZpPSAnq6u8U_3pnj0UVcHM5niGdGNBZ625bnZmRDTg4UQFOjd8tuczIfNSZ7JQeRBtnY4NHvGyGjRBe_DVE4QiDsVy9vcllRT7B1Ut7wx9CBDr945F26Um1hF4xM4.png" alt="">
+            <h3>Personal Portfolio Website</h3>
+            <p>a curated digital space designed to showcase an individual's 
+                professional work, skills, and unique brand to potential employers, clients, or collaborators.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="images/calculator-01.png" alt="">
+            <h3>Calculator</h3>
+            <p>a device, either electronic or mechanical, 
+                used for performing numerical calculations, ranging from basic arithmetic to complex 
+                mathematical, scientific, and financial functions.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="images/original-72ed32ed9c1d8d3679e3168e1f0f96d3.webp" alt="">
+            <h3>Movie Search App</h3>
+            <p>a web or mobile application designed to help users discover film information, powered by APIs like TMDb or OMDb.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h2 class="heading">Get In Touch!</h2>
+
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+
+<footer class="footer">
+    <div class="social-icons">
+        <a href="https://www.facebook.com/rpvjr02">facebook</a>
+        <a href="https://www.instagram.com/rval0202?igsh=YjJicDU5cGZ6cmd6">instagram</i></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox">google</a>
+    </div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <p class="copyright">
+        
+    </p>
+</footer>
+
+
+<script>
+    const menu = document.getElementById("menu-icon");
+    const navbar = document.querySelector(".navbar");
+
+    menu.onclick = () => {
+        navbar.classList.toggle("active");
+    };
+</script>
+
+</body>
+</html>
